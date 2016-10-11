@@ -20,8 +20,6 @@ public class IntroducingWait {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id='btn_sub']")));
 		driver.findElement(By.xpath("//a[@id='btn_sub']")).click();
 		
-		
-		
 	}
 
 }
