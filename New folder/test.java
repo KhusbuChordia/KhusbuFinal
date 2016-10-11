@@ -5,11 +5,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class IntroducingWait {
 
 	/**
-	 * @param args
+	 * @param argsdsgsdfgsfgbfgfsgfs
 	 * @throws InterruptedException 
 	 */
-	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver = new FirefoxDriver();
+	public static voidfaaf main(String[] args) throws InterruptedException {
+		WebDriver drifvdsgvsdgsgdgver = new FirefoxDriver();
 		WebDriverWait wait = new WebDriverWait(driver,11);
 		driver.get("http://www.webex.com");
 		driver.findElement(By.xpath("//a[@id='buy-webex']")).click();
